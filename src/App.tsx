@@ -1,18 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Layout } from './components/pages/Home/Layout/Layout'
+import "./App.css";
+// import { Layout } from "./components/pages/Home/Layout/Layout";
+import { Featurepage } from "./components/shared/featurepage/featurepage";
+import { NavBar } from "../src/components/shared/navbar/NavBar";
+import { Footer } from "../src/components/shared/footer/Footer";
+
+import { Layout } from "./components/pages/Home/Layout/Layout";
+import { Aboutpage } from "./components/pages/Home/About us/aboutus";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     <Layout/>
-     
+<>
+   <Layout /> 
+  {/* <Featurepage/>  */}
+  {/* <Aboutpage/> */}
+  
+ 
+  
     </>
-  )
+  );
 }
 
-export default App
+export default App;
