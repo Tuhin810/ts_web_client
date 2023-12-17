@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { NavBar } from '../../../shared/navbar/NavBar'
 import { Hero } from '../Hero/Hero'
 import { Features } from '../features/Features'
